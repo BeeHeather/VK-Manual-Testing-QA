@@ -1,0 +1,733 @@
+{
+	"info": {
+		"_postman_id": "44cb8727-b610-485f-b5f3-a79d396e0715",
+		"name": "Restcountries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26189034"
+	},
+	"item": [
+		{
+			"name": "Get country by the name",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/name/Russia",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"name",
+								"Russia"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 20:52:07 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "1471"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=99"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": {\n            \"common\": \"Russia\",\n            \"official\": \"Russian Federation\",\n            \"nativeName\": {\n                \"rus\": {\n                    \"official\": \"Российская Федерация\",\n                    \"common\": \"Россия\"\n                }\n            }\n        },\n        \"tld\": [\n            \".ru\",\n            \".su\",\n            \".рф\"\n        ],\n        \"cca2\": \"RU\",\n        \"ccn3\": \"643\",\n        \"cca3\": \"RUS\",\n        \"cioc\": \"RUS\",\n        \"independent\": true,\n        \"status\": \"officially-assigned\",\n        \"unMember\": true,\n        \"currencies\": {\n            \"RUB\": {\n                \"name\": \"Russian ruble\",\n                \"symbol\": \"₽\"\n            }\n        },\n        \"idd\": {\n            \"root\": \"+7\",\n            \"suffixes\": [\n                \"3\",\n                \"4\",\n                \"5\",\n                \"8\",\n                \"9\"\n            ]\n        },\n        \"capital\": [\n            \"Moscow\"\n        ],\n        \"altSpellings\": [\n            \"RU\",\n            \"Russian Federation\",\n            \"Российская Федерация\"\n        ],\n        \"region\": \"Europe\",\n        \"subregion\": \"Eastern Europe\",\n        \"languages\": {\n            \"rus\": \"Russian\"\n        },\n        \"translations\": {\n            \"ara\": {\n                \"official\": \"روسيا الاتحادية\",\n                \"common\": \"روسيا\"\n            },\n            \"bre\": {\n                \"official\": \"Kevread Rusia\",\n                \"common\": \"Rusia\"\n            },\n            \"ces\": {\n                \"official\": \"Ruská federace\",\n                \"common\": \"Rusko\"\n            },\n            \"cym\": {\n                \"official\": \"Russian Federation\",\n                \"common\": \"Russia\"\n            },\n            \"deu\": {\n                \"official\": \"Russische Föderation\",\n                \"common\": \"Russland\"\n            },\n            \"est\": {\n                \"official\": \"Venemaa Föderatsioon\",\n                \"common\": \"Venemaa\"\n            },\n            \"fin\": {\n                \"official\": \"Venäjän federaatio\",\n                \"common\": \"Venäjä\"\n            },\n            \"fra\": {\n                \"official\": \"Fédération de Russie\",\n                \"common\": \"Russie\"\n            },\n            \"hrv\": {\n                \"official\": \"Ruska Federacija\",\n                \"common\": \"Rusija\"\n            },\n            \"hun\": {\n                \"official\": \"Oroszországi Föderáció\",\n                \"common\": \"Oroszország\"\n            },\n            \"ita\": {\n                \"official\": \"Federazione russa\",\n                \"common\": \"Russia\"\n            },\n            \"jpn\": {\n                \"official\": \"ロシア連邦\",\n                \"common\": \"ロシア連邦\"\n            },\n            \"kor\": {\n                \"official\": \"러시아 연방\",\n                \"common\": \"러시아\"\n            },\n            \"nld\": {\n                \"official\": \"Russische Federatie\",\n                \"common\": \"Rusland\"\n            },\n            \"per\": {\n                \"official\": \"فدراسیون روسیه\",\n                \"common\": \"روسیه\"\n            },\n            \"pol\": {\n                \"official\": \"Federacja Rosyjska\",\n                \"common\": \"Rosja\"\n            },\n            \"por\": {\n                \"official\": \"Federação Russa\",\n                \"common\": \"Rússia\"\n            },\n            \"rus\": {\n                \"official\": \"Российская Федерация\",\n                \"common\": \"Россия\"\n            },\n            \"slk\": {\n                \"official\": \"Ruská federácia\",\n                \"common\": \"Rusko\"\n            },\n            \"spa\": {\n                \"official\": \"Federación de Rusia\",\n                \"common\": \"Rusia\"\n            },\n            \"srp\": {\n                \"official\": \"Руска Федерација\",\n                \"common\": \"Русија\"\n            },\n            \"swe\": {\n                \"official\": \"Ryska federationen\",\n                \"common\": \"Ryssland\"\n            },\n            \"tur\": {\n                \"official\": \"Rusya Federasyonu\",\n                \"common\": \"Rusya\"\n            },\n            \"urd\": {\n                \"official\": \"روسی وفاق\",\n                \"common\": \"روس\"\n            },\n            \"zho\": {\n                \"official\": \"俄罗斯联邦\",\n                \"common\": \"俄罗斯\"\n            }\n        },\n        \"latlng\": [\n            60,\n            100\n        ],\n        \"landlocked\": false,\n        \"borders\": [\n            \"AZE\",\n            \"BLR\",\n            \"CHN\",\n            \"EST\",\n            \"FIN\",\n            \"GEO\",\n            \"KAZ\",\n            \"PRK\",\n            \"LVA\",\n            \"LTU\",\n            \"MNG\",\n            \"NOR\",\n            \"POL\",\n            \"UKR\"\n        ],\n        \"area\": 17098242,\n        \"demonyms\": {\n            \"eng\": {\n                \"f\": \"Russian\",\n                \"m\": \"Russian\"\n            },\n            \"fra\": {\n                \"f\": \"Russe\",\n                \"m\": \"Russe\"\n            }\n        },\n        \"flag\": \"🇷🇺\",\n        \"maps\": {\n            \"googleMaps\": \"https://goo.gl/maps/4F4PpDhGJgVvLby57\",\n            \"openStreetMaps\": \"https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29\"\n        },\n        \"population\": 144104080,\n        \"gini\": {\n            \"2018\": 37.5\n        },\n        \"fifa\": \"RUS\",\n        \"car\": {\n            \"signs\": [\n                \"RUS\"\n            ],\n            \"side\": \"right\"\n        },\n        \"timezones\": [\n            \"UTC+03:00\",\n            \"UTC+04:00\",\n            \"UTC+06:00\",\n            \"UTC+07:00\",\n            \"UTC+08:00\",\n            \"UTC+09:00\",\n            \"UTC+10:00\",\n            \"UTC+11:00\",\n            \"UTC+12:00\"\n        ],\n        \"continents\": [\n            \"Europe\"\n        ],\n        \"flags\": {\n            \"png\": \"https://flagcdn.com/w320/ru.png\",\n            \"svg\": \"https://flagcdn.com/ru.svg\",\n            \"alt\": \"The flag of Russia is composed of three equal horizontal bands of white, blue and red.\"\n        },\n        \"coatOfArms\": {\n            \"png\": \"https://mainfacts.com/media/images/coats_of_arms/ru.png\",\n            \"svg\": \"https://mainfacts.com/media/images/coats_of_arms/ru.svg\"\n        },\n        \"startOfWeek\": \"monday\",\n        \"capitalInfo\": {\n            \"latlng\": [\n                55.75,\n                37.6\n            ]\n        },\n        \"postalCode\": {\n            \"format\": \"######\",\n            \"regex\": \"^(\\\\d{6})$\"\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get country by code",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/alpha/rus",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"alpha",
+								"rus"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 20:52:51 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "1471"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": {\n            \"common\": \"Russia\",\n            \"official\": \"Russian Federation\",\n            \"nativeName\": {\n                \"rus\": {\n                    \"official\": \"Российская Федерация\",\n                    \"common\": \"Россия\"\n                }\n            }\n        },\n        \"tld\": [\n            \".ru\",\n            \".su\",\n            \".рф\"\n        ],\n        \"cca2\": \"RU\",\n        \"ccn3\": \"643\",\n        \"cca3\": \"RUS\",\n        \"cioc\": \"RUS\",\n        \"independent\": true,\n        \"status\": \"officially-assigned\",\n        \"unMember\": true,\n        \"currencies\": {\n            \"RUB\": {\n                \"name\": \"Russian ruble\",\n                \"symbol\": \"₽\"\n            }\n        },\n        \"idd\": {\n            \"root\": \"+7\",\n            \"suffixes\": [\n                \"3\",\n                \"4\",\n                \"5\",\n                \"8\",\n                \"9\"\n            ]\n        },\n        \"capital\": [\n            \"Moscow\"\n        ],\n        \"altSpellings\": [\n            \"RU\",\n            \"Russian Federation\",\n            \"Российская Федерация\"\n        ],\n        \"region\": \"Europe\",\n        \"subregion\": \"Eastern Europe\",\n        \"languages\": {\n            \"rus\": \"Russian\"\n        },\n        \"translations\": {\n            \"ara\": {\n                \"official\": \"روسيا الاتحادية\",\n                \"common\": \"روسيا\"\n            },\n            \"bre\": {\n                \"official\": \"Kevread Rusia\",\n                \"common\": \"Rusia\"\n            },\n            \"ces\": {\n                \"official\": \"Ruská federace\",\n                \"common\": \"Rusko\"\n            },\n            \"cym\": {\n                \"official\": \"Russian Federation\",\n                \"common\": \"Russia\"\n            },\n            \"deu\": {\n                \"official\": \"Russische Föderation\",\n                \"common\": \"Russland\"\n            },\n            \"est\": {\n                \"official\": \"Venemaa Föderatsioon\",\n                \"common\": \"Venemaa\"\n            },\n            \"fin\": {\n                \"official\": \"Venäjän federaatio\",\n                \"common\": \"Venäjä\"\n            },\n            \"fra\": {\n                \"official\": \"Fédération de Russie\",\n                \"common\": \"Russie\"\n            },\n            \"hrv\": {\n                \"official\": \"Ruska Federacija\",\n                \"common\": \"Rusija\"\n            },\n            \"hun\": {\n                \"official\": \"Oroszországi Föderáció\",\n                \"common\": \"Oroszország\"\n            },\n            \"ita\": {\n                \"official\": \"Federazione russa\",\n                \"common\": \"Russia\"\n            },\n            \"jpn\": {\n                \"official\": \"ロシア連邦\",\n                \"common\": \"ロシア連邦\"\n            },\n            \"kor\": {\n                \"official\": \"러시아 연방\",\n                \"common\": \"러시아\"\n            },\n            \"nld\": {\n                \"official\": \"Russische Federatie\",\n                \"common\": \"Rusland\"\n            },\n            \"per\": {\n                \"official\": \"فدراسیون روسیه\",\n                \"common\": \"روسیه\"\n            },\n            \"pol\": {\n                \"official\": \"Federacja Rosyjska\",\n                \"common\": \"Rosja\"\n            },\n            \"por\": {\n                \"official\": \"Federação Russa\",\n                \"common\": \"Rússia\"\n            },\n            \"rus\": {\n                \"official\": \"Российская Федерация\",\n                \"common\": \"Россия\"\n            },\n            \"slk\": {\n                \"official\": \"Ruská federácia\",\n                \"common\": \"Rusko\"\n            },\n            \"spa\": {\n                \"official\": \"Federación de Rusia\",\n                \"common\": \"Rusia\"\n            },\n            \"srp\": {\n                \"official\": \"Руска Федерација\",\n                \"common\": \"Русија\"\n            },\n            \"swe\": {\n                \"official\": \"Ryska federationen\",\n                \"common\": \"Ryssland\"\n            },\n            \"tur\": {\n                \"official\": \"Rusya Federasyonu\",\n                \"common\": \"Rusya\"\n            },\n            \"urd\": {\n                \"official\": \"روسی وفاق\",\n                \"common\": \"روس\"\n            },\n            \"zho\": {\n                \"official\": \"俄罗斯联邦\",\n                \"common\": \"俄罗斯\"\n            }\n        },\n        \"latlng\": [\n            60,\n            100\n        ],\n        \"landlocked\": false,\n        \"borders\": [\n            \"AZE\",\n            \"BLR\",\n            \"CHN\",\n            \"EST\",\n            \"FIN\",\n            \"GEO\",\n            \"KAZ\",\n            \"PRK\",\n            \"LVA\",\n            \"LTU\",\n            \"MNG\",\n            \"NOR\",\n            \"POL\",\n            \"UKR\"\n        ],\n        \"area\": 17098242,\n        \"demonyms\": {\n            \"eng\": {\n                \"f\": \"Russian\",\n                \"m\": \"Russian\"\n            },\n            \"fra\": {\n                \"f\": \"Russe\",\n                \"m\": \"Russe\"\n            }\n        },\n        \"flag\": \"🇷🇺\",\n        \"maps\": {\n            \"googleMaps\": \"https://goo.gl/maps/4F4PpDhGJgVvLby57\",\n            \"openStreetMaps\": \"https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29\"\n        },\n        \"population\": 144104080,\n        \"gini\": {\n            \"2018\": 37.5\n        },\n        \"fifa\": \"RUS\",\n        \"car\": {\n            \"signs\": [\n                \"RUS\"\n            ],\n            \"side\": \"right\"\n        },\n        \"timezones\": [\n            \"UTC+03:00\",\n            \"UTC+04:00\",\n            \"UTC+06:00\",\n            \"UTC+07:00\",\n            \"UTC+08:00\",\n            \"UTC+09:00\",\n            \"UTC+10:00\",\n            \"UTC+11:00\",\n            \"UTC+12:00\"\n        ],\n        \"continents\": [\n            \"Europe\"\n        ],\n        \"flags\": {\n            \"png\": \"https://flagcdn.com/w320/ru.png\",\n            \"svg\": \"https://flagcdn.com/ru.svg\",\n            \"alt\": \"The flag of Russia is composed of three equal horizontal bands of white, blue and red.\"\n        },\n        \"coatOfArms\": {\n            \"png\": \"https://mainfacts.com/media/images/coats_of_arms/ru.png\",\n            \"svg\": \"https://mainfacts.com/media/images/coats_of_arms/ru.svg\"\n        },\n        \"startOfWeek\": \"monday\",\n        \"capitalInfo\": {\n            \"latlng\": [\n                55.75,\n                37.6\n            ]\n        },\n        \"postalCode\": {\n            \"format\": \"######\",\n            \"regex\": \"^(\\\\d{6})$\"\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get capitals of Asian countries",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/subregion/Asia?fields=capital",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"subregion",
+								"Asia"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "capital"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 20:58:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "404"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"capital\": [\n            \"Nur-Sultan\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Beijing\"\n        ]\n    },\n    {\n        \"capital\": []\n    },\n    {\n        \"capital\": [\n            \"Yerevan\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Baku\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Malé\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Hanoi\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Dili\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Seoul\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Tashkent\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Naypyidaw\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Dhaka\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Thimphu\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Baghdad\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Amman\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Jerusalem\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Jakarta\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Tokyo\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"City of Victoria\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Kuala Lumpur\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Kathmandu\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Kabul\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Abu Dhabi\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Pyongyang\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Manila\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Ankara\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Ulan Bator\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Riyadh\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Vientiane\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Bandar Seri Begawan\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Ashgabat\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Sri Jayawardenepura Kotte\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Tbilisi\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Phnom Penh\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Ramallah\",\n            \"Jerusalem\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Bangkok\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Tehran\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Dushanbe\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"New Delhi\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Doha\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Islamabad\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Taipei\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Singapore\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Muscat\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Beirut\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Damascus\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Bishkek\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Manama\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Kuwait City\"\n        ]\n    },\n    {\n        \"capital\": [\n            \"Sana'a\"\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get languages of all independent countries",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/independent?status=true&fields=languages",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"independent"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "true"
+								},
+								{
+									"key": "fields",
+									"value": "languages"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 21:01:59 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "1715"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"nld\": \"Dutch\"\n        }\n    },\n    {\n        \"languages\": {\n            \"afr\": \"Afrikaans\",\n            \"deu\": \"German\",\n            \"eng\": \"English\",\n            \"her\": \"Herero\",\n            \"hgm\": \"Khoekhoe\",\n            \"kwn\": \"Kwangali\",\n            \"loz\": \"Lozi\",\n            \"ndo\": \"Ndonga\",\n            \"tsn\": \"Tswana\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"bis\": \"Bislama\",\n            \"eng\": \"English\",\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"smo\": \"Samoan\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"cat\": \"Catalan\"\n        }\n    },\n    {\n        \"languages\": {\n            \"aze\": \"Azerbaijani\",\n            \"rus\": \"Russian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"div\": \"Maldivian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"por\": \"Portuguese\",\n            \"tet\": \"Tetum\"\n        }\n    },\n    {\n        \"languages\": {\n            \"mkd\": \"Macedonian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"dan\": \"Danish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"est\": \"Estonian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ces\": \"Czech\",\n            \"slk\": \"Slovak\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"fra\": \"French\",\n            \"zdj\": \"Comorian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"por\": \"Portuguese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"nld\": \"Dutch\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"msa\": \"Malay\"\n        }\n    },\n    {\n        \"languages\": {\n            \"nep\": \"Nepali\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"kor\": \"Korean\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ron\": \"Romanian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"mah\": \"Marshallese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"ton\": \"Tongan\"\n        }\n    },\n    {\n        \"languages\": {\n            \"aym\": \"Aymara\",\n            \"que\": \"Quechua\",\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"por\": \"Portuguese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"gil\": \"Gilbertese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fin\": \"Finnish\",\n            \"swe\": \"Swedish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"urd\": \"Urdu\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"slv\": \"Slovene\"\n        }\n    },\n    {\n        \"languages\": {\n            \"kir\": \"Kyrgyz\",\n            \"rus\": \"Russian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\",\n            \"gsw\": \"Swiss German\",\n            \"ita\": \"Italian\",\n            \"roh\": \"Romansh\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"crs\": \"Seychellois Creole\",\n            \"eng\": \"English\",\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"fij\": \"Fijian\",\n            \"hif\": \"Fiji Hindi\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\",\n            \"sag\": \"Sango\"\n        }\n    },\n    {\n        \"languages\": {\n            \"deu\": \"German\",\n            \"fra\": \"French\",\n            \"nld\": \"Dutch\"\n        }\n    },\n    {\n        \"languages\": {\n            \"grn\": \"Guaraní\",\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\",\n            \"mlg\": \"Malagasy\"\n        }\n    },\n    {\n        \"languages\": {\n            \"afr\": \"Afrikaans\",\n            \"eng\": \"English\",\n            \"nbl\": \"Southern Ndebele\",\n            \"nso\": \"Northern Sotho\",\n            \"sot\": \"Southern Sotho\",\n            \"ssw\": \"Swazi\",\n            \"tsn\": \"Tswana\",\n            \"tso\": \"Tsonga\",\n            \"ven\": \"Venda\",\n            \"xho\": \"Xhosa\",\n            \"zul\": \"Zulu\"\n        }\n    },\n    {\n        \"languages\": {\n            \"lav\": \"Latvian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"bwg\": \"Chibarwe\",\n            \"eng\": \"English\",\n            \"kck\": \"Kalanga\",\n            \"khi\": \"Khoisan\",\n            \"ndc\": \"Ndau\",\n            \"nde\": \"Northern Ndebele\",\n            \"nya\": \"Chewa\",\n            \"sna\": \"Shona\",\n            \"sot\": \"Sotho\",\n            \"toi\": \"Tonga\",\n            \"tsn\": \"Tswana\",\n            \"tso\": \"Tsonga\",\n            \"ven\": \"Venda\",\n            \"xho\": \"Xhosa\",\n            \"zib\": \"Zimbabwean Sign Language\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ron\": \"Romanian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"deu\": \"German\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ben\": \"Bengali\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"por\": \"Portuguese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"heb\": \"Hebrew\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"eng\": \"English\",\n            \"tir\": \"Tigrinya\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ind\": \"Indonesian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"jpn\": \"Japanese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"prs\": \"Dari\",\n            \"pus\": \"Pashto\",\n            \"tuk\": \"Turkmen\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"nya\": \"Chewa\"\n        }\n    },\n    {\n        \"languages\": {\n            \"tur\": \"Turkish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"bel\": \"Belarusian\",\n            \"rus\": \"Russian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"cnr\": \"Montenegrin\"\n        }\n    },\n    {\n        \"languages\": {\n            \"bos\": \"Bosnian\",\n            \"hrv\": \"Croatian\",\n            \"srp\": \"Serbian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"ssw\": \"Swazi\"\n        }\n    },\n    {\n        \"languages\": {\n            \"lit\": \"Lithuanian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"rus\": \"Russian\",\n            \"tuk\": \"Turkmen\"\n        }\n    },\n    {\n        \"languages\": {\n            \"amh\": \"Amharic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"hun\": \"Hungarian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ita\": \"Italian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ukr\": \"Ukrainian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\",\n            \"hat\": \"Haitian Creole\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"tsn\": \"Tswana\"\n        }\n    },\n    {\n        \"languages\": {\n            \"por\": \"Portuguese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"gle\": \"Irish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"fra\": \"French\",\n            \"mfe\": \"Mauritian Creole\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"isl\": \"Icelandic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"kaz\": \"Kazakh\",\n            \"rus\": \"Russian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"zho\": \"Chinese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"hye\": \"Armenian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"aym\": \"Aymara\",\n            \"grn\": \"Guaraní\",\n            \"que\": \"Quechua\",\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"vie\": \"Vietnamese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\",\n            \"run\": \"Kirundi\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"sot\": \"Sotho\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"rus\": \"Russian\",\n            \"uzb\": \"Uzbek\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"deu\": \"German\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"tvl\": \"Tuvaluan\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\",\n            \"por\": \"Portuguese\",\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"dzo\": \"Dzongkha\"\n        }\n    },\n    {\n        \"languages\": {\n            \"grn\": \"Guaraní\",\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"hmo\": \"Hiri Motu\",\n            \"tpi\": \"Tok Pisin\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"jam\": \"Jamaican Patois\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\",\n            \"kon\": \"Kikongo\",\n            \"lin\": \"Lingala\"\n        }\n    },\n    {\n        \"languages\": {\n            \"pol\": \"Polish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"rus\": \"Russian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\",\n            \"kon\": \"Kikongo\",\n            \"lin\": \"Lingala\",\n            \"lua\": \"Tshiluba\",\n            \"swa\": \"Swahili\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"swa\": \"Swahili\"\n        }\n    },\n    {\n        \"languages\": {\n            \"mon\": \"Mongolian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"lao\": \"Lao\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"msa\": \"Malay\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"swa\": \"Swahili\"\n        }\n    },\n    {\n        \"languages\": {\n            \"sin\": \"Sinhala\",\n            \"tam\": \"Tamil\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"de\": \"German\"\n        }\n    },\n    {\n        \"languages\": {\n            \"deu\": \"German\",\n            \"fra\": \"French\",\n            \"ltz\": \"Luxembourgish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"kat\": \"Georgian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"slk\": \"Slovak\"\n        }\n    },\n    {\n        \"languages\": {\n            \"nno\": \"Norwegian Nynorsk\",\n            \"nob\": \"Norwegian Bokmål\",\n            \"smi\": \"Sami\"\n        }\n    },\n    {\n        \"languages\": {\n            \"tha\": \"Thai\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"hin\": \"Hindi\",\n            \"tam\": \"Tamil\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"ber\": \"Berber\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"por\": \"Portuguese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"mri\": \"Māori\",\n            \"nzs\": \"New Zealand Sign Language\"\n        }\n    },\n    {\n        \"languages\": {\n            \"zho\": \"Chinese\",\n            \"eng\": \"English\",\n            \"msa\": \"Malay\",\n            \"tam\": \"Tamil\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"bjz\": \"Belizean Creole\",\n            \"eng\": \"English\",\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ell\": \"Greek\",\n            \"tur\": \"Turkish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"por\": \"Portuguese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"fra\": \"French\",\n            \"kin\": \"Kinyarwanda\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"mlt\": \"Maltese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"kor\": \"Korean\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"sqi\": \"Albanian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"som\": \"Somali\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"mya\": \"Burmese\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"swa\": \"Swahili\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"arc\": \"Aramaic\",\n            \"ckb\": \"Sorani\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"srp\": \"Serbian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"swe\": \"Swedish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ell\": \"Greek\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"fil\": \"Filipino\"\n        }\n    },\n    {\n        \"languages\": {\n            \"por\": \"Portuguese\",\n            \"pov\": \"Upper Guinea Creole\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"pau\": \"Palauan\"\n        }\n    },\n    {\n        \"languages\": {\n            \"bul\": \"Bulgarian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\",\n            \"nau\": \"Nauru\"\n        }\n    },\n    {\n        \"languages\": {\n            \"khm\": \"Khmer\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ita\": \"Italian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"fas\": \"Persian (Farsi)\"\n        }\n    },\n    {\n        \"languages\": {\n            \"rus\": \"Russian\",\n            \"tgk\": \"Tajik\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ara\": \"Arabic\",\n            \"fra\": \"French\"\n        }\n    },\n    {\n        \"languages\": {\n            \"ita\": \"Italian\",\n            \"lat\": \"Latin\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    },\n    {\n        \"languages\": {\n            \"hrv\": \"Croatian\"\n        }\n    },\n    {\n        \"languages\": {\n            \"eng\": \"English\"\n        }\n    },\n    {\n        \"languages\": {\n            \"spa\": \"Spanish\"\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get currencies of all European countries",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/region/europe?fields=currencies",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"region",
+								"europe"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "currencies"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 21:03:07 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "553"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"currencies\": {\n            \"NOK\": {\n                \"name\": \"krone\",\n                \"symbol\": \"kr\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"GBP\": {\n                \"name\": \"British pound\",\n                \"symbol\": \"£\"\n            },\n            \"GGP\": {\n                \"name\": \"Guernsey pound\",\n                \"symbol\": \"£\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"RON\": {\n                \"name\": \"Romanian leu\",\n                \"symbol\": \"lei\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"MKD\": {\n                \"name\": \"denar\",\n                \"symbol\": \"den\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"ALL\": {\n                \"name\": \"Albanian lek\",\n                \"symbol\": \"L\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"DKK\": {\n                \"name\": \"Danish krone\",\n                \"symbol\": \"kr\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"CHF\": {\n                \"name\": \"Swiss franc\",\n                \"symbol\": \"Fr\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"CZK\": {\n                \"name\": \"Czech koruna\",\n                \"symbol\": \"Kč\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"PLN\": {\n                \"name\": \"Polish złoty\",\n                \"symbol\": \"zł\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"RSD\": {\n                \"name\": \"Serbian dinar\",\n                \"symbol\": \"дин.\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"RUB\": {\n                \"name\": \"Russian ruble\",\n                \"symbol\": \"₽\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"GBP\": {\n                \"name\": \"British pound\",\n                \"symbol\": \"£\"\n            },\n            \"IMP\": {\n                \"name\": \"Manx pound\",\n                \"symbol\": \"£\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"SEK\": {\n                \"name\": \"Swedish krona\",\n                \"symbol\": \"kr\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"MDL\": {\n                \"name\": \"Moldovan leu\",\n                \"symbol\": \"L\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"DKK\": {\n                \"name\": \"Danish krone\",\n                \"symbol\": \"kr\"\n            },\n            \"FOK\": {\n                \"name\": \"Faroese króna\",\n                \"symbol\": \"kr\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"BGN\": {\n                \"name\": \"Bulgarian lev\",\n                \"symbol\": \"лв\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"BYN\": {\n                \"name\": \"Belarusian ruble\",\n                \"symbol\": \"Br\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"BAM\": {\n                \"name\": \"Bosnia and Herzegovina convertible mark\",\n                \"symbol\": \"\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"NOK\": {\n                \"name\": \"Norwegian krone\",\n                \"symbol\": \"kr\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"GBP\": {\n                \"name\": \"British pound\",\n                \"symbol\": \"£\"\n            },\n            \"JEP\": {\n                \"name\": \"Jersey pound\",\n                \"symbol\": \"£\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"HUF\": {\n                \"name\": \"Hungarian forint\",\n                \"symbol\": \"Ft\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"UAH\": {\n                \"name\": \"Ukrainian hryvnia\",\n                \"symbol\": \"₴\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"CHF\": {\n                \"name\": \"Swiss franc\",\n                \"symbol\": \"Fr.\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"GIP\": {\n                \"name\": \"Gibraltar pound\",\n                \"symbol\": \"£\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"GBP\": {\n                \"name\": \"British pound\",\n                \"symbol\": \"£\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"EUR\": {\n                \"name\": \"Euro\",\n                \"symbol\": \"€\"\n            }\n        }\n    },\n    {\n        \"currencies\": {\n            \"ISK\": {\n                \"name\": \"Icelandic króna\",\n                \"symbol\": \"kr\"\n            }\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get country by translation name",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/translation/Россия",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"translation",
+								"Россия"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 21:04:39 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "1471"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": {\n            \"common\": \"Russia\",\n            \"official\": \"Russian Federation\",\n            \"nativeName\": {\n                \"rus\": {\n                    \"official\": \"Российская Федерация\",\n                    \"common\": \"Россия\"\n                }\n            }\n        },\n        \"tld\": [\n            \".ru\",\n            \".su\",\n            \".рф\"\n        ],\n        \"cca2\": \"RU\",\n        \"ccn3\": \"643\",\n        \"cca3\": \"RUS\",\n        \"cioc\": \"RUS\",\n        \"independent\": true,\n        \"status\": \"officially-assigned\",\n        \"unMember\": true,\n        \"currencies\": {\n            \"RUB\": {\n                \"name\": \"Russian ruble\",\n                \"symbol\": \"₽\"\n            }\n        },\n        \"idd\": {\n            \"root\": \"+7\",\n            \"suffixes\": [\n                \"3\",\n                \"4\",\n                \"5\",\n                \"8\",\n                \"9\"\n            ]\n        },\n        \"capital\": [\n            \"Moscow\"\n        ],\n        \"altSpellings\": [\n            \"RU\",\n            \"Russian Federation\",\n            \"Российская Федерация\"\n        ],\n        \"region\": \"Europe\",\n        \"subregion\": \"Eastern Europe\",\n        \"languages\": {\n            \"rus\": \"Russian\"\n        },\n        \"translations\": {\n            \"ara\": {\n                \"official\": \"روسيا الاتحادية\",\n                \"common\": \"روسيا\"\n            },\n            \"bre\": {\n                \"official\": \"Kevread Rusia\",\n                \"common\": \"Rusia\"\n            },\n            \"ces\": {\n                \"official\": \"Ruská federace\",\n                \"common\": \"Rusko\"\n            },\n            \"cym\": {\n                \"official\": \"Russian Federation\",\n                \"common\": \"Russia\"\n            },\n            \"deu\": {\n                \"official\": \"Russische Föderation\",\n                \"common\": \"Russland\"\n            },\n            \"est\": {\n                \"official\": \"Venemaa Föderatsioon\",\n                \"common\": \"Venemaa\"\n            },\n            \"fin\": {\n                \"official\": \"Venäjän federaatio\",\n                \"common\": \"Venäjä\"\n            },\n            \"fra\": {\n                \"official\": \"Fédération de Russie\",\n                \"common\": \"Russie\"\n            },\n            \"hrv\": {\n                \"official\": \"Ruska Federacija\",\n                \"common\": \"Rusija\"\n            },\n            \"hun\": {\n                \"official\": \"Oroszországi Föderáció\",\n                \"common\": \"Oroszország\"\n            },\n            \"ita\": {\n                \"official\": \"Federazione russa\",\n                \"common\": \"Russia\"\n            },\n            \"jpn\": {\n                \"official\": \"ロシア連邦\",\n                \"common\": \"ロシア連邦\"\n            },\n            \"kor\": {\n                \"official\": \"러시아 연방\",\n                \"common\": \"러시아\"\n            },\n            \"nld\": {\n                \"official\": \"Russische Federatie\",\n                \"common\": \"Rusland\"\n            },\n            \"per\": {\n                \"official\": \"فدراسیون روسیه\",\n                \"common\": \"روسیه\"\n            },\n            \"pol\": {\n                \"official\": \"Federacja Rosyjska\",\n                \"common\": \"Rosja\"\n            },\n            \"por\": {\n                \"official\": \"Federação Russa\",\n                \"common\": \"Rússia\"\n            },\n            \"rus\": {\n                \"official\": \"Российская Федерация\",\n                \"common\": \"Россия\"\n            },\n            \"slk\": {\n                \"official\": \"Ruská federácia\",\n                \"common\": \"Rusko\"\n            },\n            \"spa\": {\n                \"official\": \"Federación de Rusia\",\n                \"common\": \"Rusia\"\n            },\n            \"srp\": {\n                \"official\": \"Руска Федерација\",\n                \"common\": \"Русија\"\n            },\n            \"swe\": {\n                \"official\": \"Ryska federationen\",\n                \"common\": \"Ryssland\"\n            },\n            \"tur\": {\n                \"official\": \"Rusya Federasyonu\",\n                \"common\": \"Rusya\"\n            },\n            \"urd\": {\n                \"official\": \"روسی وفاق\",\n                \"common\": \"روس\"\n            },\n            \"zho\": {\n                \"official\": \"俄罗斯联邦\",\n                \"common\": \"俄罗斯\"\n            }\n        },\n        \"latlng\": [\n            60,\n            100\n        ],\n        \"landlocked\": false,\n        \"borders\": [\n            \"AZE\",\n            \"BLR\",\n            \"CHN\",\n            \"EST\",\n            \"FIN\",\n            \"GEO\",\n            \"KAZ\",\n            \"PRK\",\n            \"LVA\",\n            \"LTU\",\n            \"MNG\",\n            \"NOR\",\n            \"POL\",\n            \"UKR\"\n        ],\n        \"area\": 17098242,\n        \"demonyms\": {\n            \"eng\": {\n                \"f\": \"Russian\",\n                \"m\": \"Russian\"\n            },\n            \"fra\": {\n                \"f\": \"Russe\",\n                \"m\": \"Russe\"\n            }\n        },\n        \"flag\": \"🇷🇺\",\n        \"maps\": {\n            \"googleMaps\": \"https://goo.gl/maps/4F4PpDhGJgVvLby57\",\n            \"openStreetMaps\": \"https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29\"\n        },\n        \"population\": 144104080,\n        \"gini\": {\n            \"2018\": 37.5\n        },\n        \"fifa\": \"RUS\",\n        \"car\": {\n            \"signs\": [\n                \"RUS\"\n            ],\n            \"side\": \"right\"\n        },\n        \"timezones\": [\n            \"UTC+03:00\",\n            \"UTC+04:00\",\n            \"UTC+06:00\",\n            \"UTC+07:00\",\n            \"UTC+08:00\",\n            \"UTC+09:00\",\n            \"UTC+10:00\",\n            \"UTC+11:00\",\n            \"UTC+12:00\"\n        ],\n        \"continents\": [\n            \"Europe\"\n        ],\n        \"flags\": {\n            \"png\": \"https://flagcdn.com/w320/ru.png\",\n            \"svg\": \"https://flagcdn.com/ru.svg\",\n            \"alt\": \"The flag of Russia is composed of three equal horizontal bands of white, blue and red.\"\n        },\n        \"coatOfArms\": {\n            \"png\": \"https://mainfacts.com/media/images/coats_of_arms/ru.png\",\n            \"svg\": \"https://mainfacts.com/media/images/coats_of_arms/ru.svg\"\n        },\n        \"startOfWeek\": \"monday\",\n        \"capitalInfo\": {\n            \"latlng\": [\n                55.75,\n                37.6\n            ]\n        },\n        \"postalCode\": {\n            \"format\": \"######\",\n            \"regex\": \"^(\\\\d{6})$\"\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get borders of the country",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/name/Russia?fields=borders",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"name",
+								"Russia"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "borders"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 21:11:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-length",
+							"value": "99"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=99"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"borders\": [\n            \"AZE\",\n            \"BLR\",\n            \"CHN\",\n            \"EST\",\n            \"FIN\",\n            \"GEO\",\n            \"KAZ\",\n            \"PRK\",\n            \"LVA\",\n            \"LTU\",\n            \"MNG\",\n            \"NOR\",\n            \"POL\",\n            \"UKR\"\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get area&population of non independent countries",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/independent?status=false&fields=area,population",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"independent"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "false"
+								},
+								{
+									"key": "fields",
+									"value": "area,population"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 21:13:44 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "448"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"area\": 151,\n        \"population\": 30237\n    },\n    {\n        \"area\": -1,\n        \"population\": 2562\n    },\n    {\n        \"area\": 2511,\n        \"population\": 840974\n    },\n    {\n        \"area\": 49,\n        \"population\": 0\n    },\n    {\n        \"area\": 444,\n        \"population\": 155014\n    },\n    {\n        \"area\": 34.2,\n        \"population\": 300\n    },\n    {\n        \"area\": 30,\n        \"population\": 649342\n    },\n    {\n        \"area\": 4167,\n        \"population\": 280904\n    },\n    {\n        \"area\": 374,\n        \"population\": 226915\n    },\n    {\n        \"area\": 14000000,\n        \"population\": 1000\n    },\n    {\n        \"area\": 78,\n        \"population\": 62999\n    },\n    {\n        \"area\": 142,\n        \"population\": 11750\n    },\n    {\n        \"area\": 12,\n        \"population\": 1411\n    },\n    {\n        \"area\": 54,\n        \"population\": 63903\n    },\n    {\n        \"area\": 264,\n        \"population\": 65720\n    },\n    {\n        \"area\": 47,\n        \"population\": 56\n    },\n    {\n        \"area\": 180,\n        \"population\": 106766\n    },\n    {\n        \"area\": 102,\n        \"population\": 4922\n    },\n    {\n        \"area\": 3903,\n        \"population\": 30\n    },\n    {\n        \"area\": 1580,\n        \"population\": 29458\n    },\n    {\n        \"area\": 34,\n        \"population\": 40812\n    },\n    {\n        \"area\": 236,\n        \"population\": 18100\n    },\n    {\n        \"area\": 412,\n        \"population\": 0\n    },\n    {\n        \"area\": 572,\n        \"population\": 85032\n    },\n    {\n        \"area\": 1104,\n        \"population\": 7500700\n    },\n    {\n        \"area\": 266000,\n        \"population\": 510713\n    },\n    {\n        \"area\": 83534,\n        \"population\": 254541\n    },\n    {\n        \"area\": 1393,\n        \"population\": 48865\n    },\n    {\n        \"area\": 116,\n        \"population\": 100800\n    },\n    {\n        \"area\": 6220,\n        \"population\": 4803269\n    },\n    {\n        \"area\": 91,\n        \"population\": 13452\n    },\n    {\n        \"area\": 199,\n        \"population\": 55197\n    },\n    {\n        \"area\": 260,\n        \"population\": 1470\n    },\n    {\n        \"area\": 1628,\n        \"population\": 400132\n    },\n    {\n        \"area\": 60,\n        \"population\": 3000\n    },\n    {\n        \"area\": 242,\n        \"population\": 6069\n    },\n    {\n        \"area\": 10908,\n        \"population\": 1775378\n    },\n    {\n        \"area\": 2166086,\n        \"population\": 56367\n    },\n    {\n        \"area\": 394,\n        \"population\": 53192\n    },\n    {\n        \"area\": 1128,\n        \"population\": 378243\n    },\n    {\n        \"area\": 36193,\n        \"population\": 23503349\n    },\n    {\n        \"area\": 36,\n        \"population\": 2302\n    },\n    {\n        \"area\": 948,\n        \"population\": 38718\n    },\n    {\n        \"area\": 12173,\n        \"population\": 2563\n    },\n    {\n        \"area\": 18575,\n        \"population\": 271960\n    },\n    {\n        \"area\": 53,\n        \"population\": 38659\n    },\n    {\n        \"area\": 549,\n        \"population\": 168783\n    },\n    {\n        \"area\": 328,\n        \"population\": 25987\n    },\n    {\n        \"area\": 7747,\n        \"population\": 400\n    },\n    {\n        \"area\": 21,\n        \"population\": 4255\n    },\n    {\n        \"area\": 14,\n        \"population\": 544\n    },\n    {\n        \"area\": 464,\n        \"population\": 57557\n    },\n    {\n        \"area\": 6,\n        \"population\": 33691\n    },\n    {\n        \"area\": 135,\n        \"population\": 2072\n    },\n    {\n        \"area\": 347,\n        \"population\": 106290\n    },\n    {\n        \"area\": 8870,\n        \"population\": 3194034\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get names of all language-speaking countries",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/lang/russian?fields=name",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"lang",
+								"russian"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "name"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 21:16:03 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "579"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": {\n            \"common\": \"Azerbaijan\",\n            \"official\": \"Republic of Azerbaijan\",\n            \"nativeName\": {\n                \"aze\": {\n                    \"official\": \"Azərbaycan Respublikası\",\n                    \"common\": \"Azərbaycan\"\n                },\n                \"rus\": {\n                    \"official\": \"Азербайджанская Республика\",\n                    \"common\": \"Азербайджан\"\n                }\n            }\n        }\n    },\n    {\n        \"name\": {\n            \"common\": \"Kyrgyzstan\",\n            \"official\": \"Kyrgyz Republic\",\n            \"nativeName\": {\n                \"kir\": {\n                    \"official\": \"Кыргыз Республикасы\",\n                    \"common\": \"Кыргызстан\"\n                },\n                \"rus\": {\n                    \"official\": \"Кыргызская Республика\",\n                    \"common\": \"Киргизия\"\n                }\n            }\n        }\n    },\n    {\n        \"name\": {\n            \"common\": \"Russia\",\n            \"official\": \"Russian Federation\",\n            \"nativeName\": {\n                \"rus\": {\n                    \"official\": \"Российская Федерация\",\n                    \"common\": \"Россия\"\n                }\n            }\n        }\n    },\n    {\n        \"name\": {\n            \"common\": \"Belarus\",\n            \"official\": \"Republic of Belarus\",\n            \"nativeName\": {\n                \"bel\": {\n                    \"official\": \"Рэспубліка Беларусь\",\n                    \"common\": \"Белару́сь\"\n                },\n                \"rus\": {\n                    \"official\": \"Республика Беларусь\",\n                    \"common\": \"Беларусь\"\n                }\n            }\n        }\n    },\n    {\n        \"name\": {\n            \"common\": \"Tajikistan\",\n            \"official\": \"Republic of Tajikistan\",\n            \"nativeName\": {\n                \"rus\": {\n                    \"official\": \"Республика Таджикистан\",\n                    \"common\": \"Таджикистан\"\n                },\n                \"tgk\": {\n                    \"official\": \"Ҷумҳурии Тоҷикистон\",\n                    \"common\": \"Тоҷикистон\"\n                }\n            }\n        }\n    },\n    {\n        \"name\": {\n            \"common\": \"Uzbekistan\",\n            \"official\": \"Republic of Uzbekistan\",\n            \"nativeName\": {\n                \"rus\": {\n                    \"official\": \"Республика Узбекистан\",\n                    \"common\": \"Узбекистан\"\n                },\n                \"uzb\": {\n                    \"official\": \"O'zbekiston Respublikasi\",\n                    \"common\": \"O‘zbekiston\"\n                }\n            }\n        }\n    },\n    {\n        \"name\": {\n            \"common\": \"Turkmenistan\",\n            \"official\": \"Turkmenistan\",\n            \"nativeName\": {\n                \"rus\": {\n                    \"official\": \"Туркменистан\",\n                    \"common\": \"Туркмения\"\n                },\n                \"tuk\": {\n                    \"official\": \"Türkmenistan\",\n                    \"common\": \"Türkmenistan\"\n                }\n            }\n        }\n    },\n    {\n        \"name\": {\n            \"common\": \"Kazakhstan\",\n            \"official\": \"Republic of Kazakhstan\",\n            \"nativeName\": {\n                \"kaz\": {\n                    \"official\": \"Қазақстан Республикасы\",\n                    \"common\": \"Қазақстан\"\n                },\n                \"rus\": {\n                    \"official\": \"Республика Казахстан\",\n                    \"common\": \"Казахстан\"\n                }\n            }\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get population of all countries",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restcountries.com/v3.1/all?fields=population",
+							"protocol": "https",
+							"host": [
+								"restcountries",
+								"com"
+							],
+							"path": [
+								"v3.1",
+								"all"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "population"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 23 Apr 2023 21:24:46 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.38 (Debian)"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, immutable, max-age=31556926"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "1233"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"population\": 287371\n    },\n    {\n        \"population\": 840974\n    },\n    {\n        \"population\": 586634\n    },\n    {\n        \"population\": 2540916\n    },\n    {\n        \"population\": 13132792\n    },\n    {\n        \"population\": 307150\n    },\n    {\n        \"population\": 198410\n    },\n    {\n        \"population\": 67391582\n    },\n    {\n        \"population\": 77265\n    },\n    {\n        \"population\": 10110116\n    },\n    {\n        \"population\": 540542\n    },\n    {\n        \"population\": 280904\n    },\n    {\n        \"population\": 183629\n    },\n    {\n        \"population\": 4314768\n    },\n    {\n        \"population\": 1318442\n    },\n    {\n        \"population\": 2077132\n    },\n    {\n        \"population\": 5831404\n    },\n    {\n        \"population\": 102334403\n    },\n    {\n        \"population\": 1331057\n    },\n    {\n        \"population\": 10698896\n    },\n    {\n        \"population\": 393248\n    },\n    {\n        \"population\": 3473727\n    },\n    {\n        \"population\": 29458\n    },\n    {\n        \"population\": 869595\n    },\n    {\n        \"population\": 18100\n    },\n    {\n        \"population\": 5094114\n    },\n    {\n        \"population\": 8278737\n    },\n    {\n        \"population\": 219161\n    },\n    {\n        \"population\": 16655799\n    },\n    {\n        \"population\": 7500700\n    },\n    {\n        \"population\": 25687041\n    },\n    {\n        \"population\": 32365998\n    },\n    {\n        \"population\": 29136808\n    },\n    {\n        \"population\": 11326616\n    },\n    {\n        \"population\": 25778815\n    },\n    {\n        \"population\": 254541\n    },\n    {\n        \"population\": 2617820\n    },\n    {\n        \"population\": 18383956\n    },\n    {\n        \"population\": 71991\n    },\n    {\n        \"population\": 59194\n    },\n    {\n        \"population\": 105697\n    },\n    {\n        \"population\": 32971846\n    },\n    {\n        \"population\": 555988\n    },\n    {\n        \"population\": 119446\n    },\n    {\n        \"population\": 5530719\n    },\n    {\n        \"population\": 26378275\n    },\n    {\n        \"population\": 378243\n    },\n    {\n        \"population\": 220892331\n    },\n    {\n        \"population\": 988002\n    },\n    {\n        \"population\": 38718\n    },\n    {\n        \"population\": 115021\n    },\n    {\n        \"population\": 2100126\n    },\n    {\n        \"population\": 6591600\n    },\n    {\n        \"population\": 25987\n    },\n    {\n        \"population\": 400\n    },\n    {\n        \"population\": 4255\n    },\n    {\n        \"population\": 8654622\n    },\n    {\n        \"population\": 4270563\n    },\n    {\n        \"population\": 98462\n    },\n    {\n        \"population\": 67215293\n    },\n    {\n        \"population\": 106290\n    },\n    {\n        \"population\": 896444\n    },\n    {\n        \"population\": 29825968\n    },\n    {\n        \"population\": 30237\n    },\n    {\n        \"population\": 0\n    },\n    {\n        \"population\": 4829764\n    },\n    {\n        \"population\": 11555997\n    },\n    {\n        \"population\": 155014\n    },\n    {\n        \"population\": 45376763\n    },\n    {\n        \"population\": 27691019\n    },\n    {\n        \"population\": 59308690\n    },\n    {\n        \"population\": 1901548\n    },\n    {\n        \"population\": 14862927\n    },\n    {\n        \"population\": 1000\n    },\n    {\n        \"population\": 62999\n    },\n    {\n        \"population\": 2225728\n    },\n    {\n        \"population\": 19286123\n    },\n    {\n        \"population\": 83240525\n    },\n    {\n        \"population\": 164689383\n    },\n    {\n        \"population\": 4922\n    },\n    {\n        \"population\": 10203140\n    },\n    {\n        \"population\": 31255435\n    },\n    {\n        \"population\": 9216900\n    },\n    {\n        \"population\": 5352000\n    },\n    {\n        \"population\": 273523621\n    },\n    {\n        \"population\": 85032\n    },\n    {\n        \"population\": 125836021\n    },\n    {\n        \"population\": 47351567\n    },\n    {\n        \"population\": 40218234\n    },\n    {\n        \"population\": 9890400\n    },\n    {\n        \"population\": 19129955\n    },\n    {\n        \"population\": 84339067\n    },\n    {\n        \"population\": 9398861\n    },\n    {\n        \"population\": 621718\n    },\n    {\n        \"population\": 3280815\n    },\n    {\n        \"population\": 1160164\n    },\n    {\n        \"population\": 2794700\n    },\n    {\n        \"population\": 6031187\n    },\n    {\n        \"population\": 114963583\n    },\n    {\n        \"population\": 13452\n    },\n    {\n        \"population\": 9749763\n    },\n    {\n        \"population\": 55197\n    },\n    {\n        \"population\": 16425859\n    },\n    {\n        \"population\": 400132\n    },\n    {\n        \"population\": 206139587\n    },\n    {\n        \"population\": 33938\n    },\n    {\n        \"population\": 44134693\n    },\n    {\n        \"population\": 11402533\n    },\n    {\n        \"population\": 2351625\n    },\n    {\n        \"population\": 10305564\n    },\n    {\n        \"population\": 786559\n    },\n    {\n        \"population\": 4994724\n    },\n    {\n        \"population\": 271960\n    },\n    {\n        \"population\": 38659\n    },\n    {\n        \"population\": 1265740\n    },\n    {\n        \"population\": 33691\n    },\n    {\n        \"population\": 53192\n    },\n    {\n        \"population\": 366425\n    },\n    {\n        \"population\": 2562\n    },\n    {\n        \"population\": 19116209\n    },\n    {\n        \"population\": 300\n    },\n    {\n        \"population\": 18754440\n    },\n    {\n        \"population\": 1402112000\n    },\n    {\n        \"population\": 649342\n    },\n    {\n        \"population\": 2963234\n    },\n    {\n        \"population\": 11673029\n    },\n    {\n        \"population\": 43849269\n    },\n    {\n        \"population\": 97338583\n    },\n    {\n        \"population\": 11750\n    },\n    {\n        \"population\": 11890781\n    },\n    {\n        \"population\": 38005238\n    },\n    {\n        \"population\": 50882884\n    },\n    {\n        \"population\": 2142252\n    },\n    {\n        \"population\": 63903\n    },\n    {\n        \"population\": 16858333\n    },\n    {\n        \"population\": 34232050\n    },\n    {\n        \"population\": 65720\n    },\n    {\n        \"population\": 16743930\n    },\n    {\n        \"population\": 2416664\n    },\n    {\n        \"population\": 38137\n    },\n    {\n        \"population\": 56\n    },\n    {\n        \"population\": 11792\n    },\n    {\n        \"population\": 1402985\n    },\n    {\n        \"population\": 771612\n    },\n    {\n        \"population\": 106766\n    },\n    {\n        \"population\": 7132530\n    },\n    {\n        \"population\": 112519\n    },\n    {\n        \"population\": 8947027\n    },\n    {\n        \"population\": 2961161\n    },\n    {\n        \"population\": 5657000\n    },\n    {\n        \"population\": 37950802\n    },\n    {\n        \"population\": 144104080\n    },\n    {\n        \"population\": 4649660\n    },\n    {\n        \"population\": 510713\n    },\n    {\n        \"population\": 20903278\n    },\n    {\n        \"population\": 108407721\n    },\n    {\n        \"population\": 12123198\n    },\n    {\n        \"population\": 45741000\n    },\n    {\n        \"population\": 3278292\n    },\n    {\n        \"population\": 7275556\n    },\n    {\n        \"population\": 44700000\n    },\n    {\n        \"population\": 437483\n    },\n    {\n        \"population\": 53771300\n    },\n    {\n        \"population\": 21919000\n    },\n    {\n        \"population\": 10847904\n    },\n    {\n        \"population\": 8917205\n    },\n    {\n        \"population\": 632275\n    },\n    {\n        \"population\": 3714000\n    },\n    {\n        \"population\": 5458827\n    },\n    {\n        \"population\": 5379475\n    },\n    {\n        \"population\": 69799978\n    },\n    {\n        \"population\": 3000\n    },\n    {\n        \"population\": 1380004385\n    },\n    {\n        \"population\": 36910558\n    },\n    {\n        \"population\": 6069\n    },\n    {\n        \"population\": 56367\n    },\n    {\n        \"population\": 6624554\n    },\n    {\n        \"population\": 2881060\n    },\n    {\n        \"population\": 23503349\n    },\n    {\n        \"population\": 212559409\n    },\n    {\n        \"population\": 5084300\n    },\n    {\n        \"population\": 5685807\n    },\n    {\n        \"population\": 17500657\n    },\n    {\n        \"population\": 397621\n    },\n    {\n        \"population\": 2563\n    },\n    {\n        \"population\": 28435943\n    },\n    {\n        \"population\": 1701583\n    },\n    {\n        \"population\": 544\n    },\n    {\n        \"population\": 57557\n    },\n    {\n        \"population\": 26545864\n    },\n    {\n        \"population\": 1207361\n    },\n    {\n        \"population\": 329484123\n    },\n    {\n        \"population\": 32866268\n    },\n    {\n        \"population\": 11818618\n    },\n    {\n        \"population\": 39244\n    },\n    {\n        \"population\": 12952209\n    },\n    {\n        \"population\": 1399491\n    },\n    {\n        \"population\": 525285\n    },\n    {\n        \"population\": 128932753\n    },\n    {\n        \"population\": 226915\n    },\n    {\n        \"population\": 97928\n    },\n    {\n        \"population\": 1411\n    },\n    {\n        \"population\": 51780579\n    },\n    {\n        \"population\": 24206636\n    },\n    {\n        \"population\": 2837743\n    },\n    {\n        \"population\": 15893219\n    },\n    {\n        \"population\": 5057677\n    },\n    {\n        \"population\": 54409794\n    },\n    {\n        \"population\": 59734213\n    },\n    {\n        \"population\": 40222503\n    },\n    {\n        \"population\": 30\n    },\n    {\n        \"population\": 110947\n    },\n    {\n        \"population\": 6871287\n    },\n    {\n        \"population\": 7976985\n    },\n    {\n        \"population\": 40812\n    },\n    {\n        \"population\": 6908224\n    },\n    {\n        \"population\": 0\n    },\n    {\n        \"population\": 31072945\n    },\n    {\n        \"population\": 11193729\n    },\n    {\n        \"population\": 10353442\n    },\n    {\n        \"population\": 10715549\n    },\n    {\n        \"population\": 48865\n    },\n    {\n        \"population\": 109581085\n    },\n    {\n        \"population\": 1967998\n    },\n    {\n        \"population\": 34813867\n    },\n    {\n        \"population\": 18092\n    },\n    {\n        \"population\": 6927288\n    },\n    {\n        \"population\": 10834\n    },\n    {\n        \"population\": 16718971\n    },\n    {\n        \"population\": 100800\n    },\n    {\n        \"population\": 4803269\n    },\n    {\n        \"population\": 59554023\n    },\n    {\n        \"population\": 20250834\n    },\n    {\n        \"population\": 83992953\n    },\n    {\n        \"population\": 1470\n    },\n    {\n        \"population\": 9537642\n    },\n    {\n        \"population\": 1775378\n    },\n    {\n        \"population\": 53192\n    },\n    {\n        \"population\": 2302\n    },\n    {\n        \"population\": 5106622\n    },\n    {\n        \"population\": 6486201\n    },\n    {\n        \"population\": 6825442\n    },\n    {\n        \"population\": 451\n    },\n    {\n        \"population\": 17643060\n    },\n    {\n        \"population\": 168783\n    },\n    {\n        \"population\": 4047200\n    },\n    {\n        \"population\": 686878\n    },\n    {\n        \"population\": 9904608\n    },\n    {\n        \"population\": 2072\n    },\n    {\n        \"population\": 3194034\n    }\n]"
+				}
+			]
+		}
+	]
+}
